@@ -5,7 +5,7 @@
 " Set runtime path on Windows installs; saves having to change .vimrc/.gvimrc
 " filenames to Windows gVim defaults 
 if has('win32') || has('win64')
-	set runtimepath=$HOME/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$HOME/.vim/after
+	set runtimepath=$USERPROFILE/vimfiles,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$USERPROFILE/vimfiles/after
 endif
 
 "
